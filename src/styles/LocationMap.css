@@ -1,0 +1,49 @@
+.map-container {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.map-header {
+    margin-bottom: 30px;
+}
+
+.map-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.map-address {
+    font-size: 1.1rem;
+    color: #666;
+}
+
+.map-wrapper {
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    max-width: 900px;
+    /* Limita a largura máxima do mapa */
+}
+
+.map-footer {
+    margin-top: 25px;
+}
+
+.map-button {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.map-button:hover {
+    background-color: #0056b3;
+}
